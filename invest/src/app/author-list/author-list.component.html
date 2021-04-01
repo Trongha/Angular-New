@@ -1,0 +1,5 @@
+<p>author-list works!</p>
+<app-author-detail *ngFor="let author of authors" [author]="author" (authorSelect)="onAuthorSelect($event)">
+
+</app-author-detail>
+<h1> current: {{ currentName }}</h1>
